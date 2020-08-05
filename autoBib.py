@@ -126,6 +126,7 @@ def citMachine(sources): # i.e. citMachine('sourceList.xlsx')
                 time.sleep(2)
                 chicago.send_keys(Keys.DOWN)
                 chicago.send_keys(Keys.RETURN)
+                time.sleep(2)
 
                 # Click 'Copy All'
                 try:
